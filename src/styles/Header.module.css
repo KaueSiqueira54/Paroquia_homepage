@@ -43,7 +43,7 @@ header {
 
 .div_nav nav a {
   color: #000;
-  font-family: var("--fonte_inter");
+  font-family: var(--fonte_inter);
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
@@ -54,4 +54,3 @@ header {
 .div_nav nav a:hover {
   color: var(--vermelho);
 }
-
