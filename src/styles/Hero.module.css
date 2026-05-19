@@ -1,0 +1,35 @@
+@import url(../styles/Global.css);
+
+.sec_hero {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+}
+
+.sec_hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.text {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text h1 {
+  color: #1e1e1e;
+  text-align: center;
+  font-family: var(--fonte_cormorant);
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
